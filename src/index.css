@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Plus Jakarta Sans Medium', sans-serif;
+  src: url(vendors/PlusJakartaSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans Bold', sans-serif;
+  src: url(vendors/PlusJakartaSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans Extra Bold', sans-serif;
+  src: url(vendors/PlusJakartaSans-ExtraBold.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
