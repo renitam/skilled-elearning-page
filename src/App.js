@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Button, Button2, Button3, Navbar, Logo, CardLeadText, Body, CalltoAction, CardLead, Card, CardLogo, CardText, CardHeading, Header, Main, Footer, IntroHeading, IntroText, HeroImg } from './styles/global';
+import { Button, Button2, Button3, Navbar, Logo, CardLeadText, Body, CalltoAction, CardLead, Card, CardLogo, CardText, CardHeading, Nav, Header, Main, Footer, IntroHeading, IntroText, HeroImg } from './styles/global';
 import skilledlight from './images/logo-dark.svg';
 import skilleddark from './images/logo-light.svg';
 import { carddata } from './constants/constants';
@@ -19,11 +19,11 @@ const renderCards = () => {
 function App() {
   return (
     <>
+      <Nav>
+        <Logo src={skilledlight} alt="skilled logo" />
+        <Button>Get Started</Button>
+      </Nav>
       <Header>
-        <Navbar>
-          <Logo src={skilledlight} alt="skilled logo" />
-          <Button>Get Started</Button>
-        </Navbar>
         <IntroText>
           <IntroHeading>Maximize skill, minimize budget</IntroHeading>
           <Body>

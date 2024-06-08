@@ -51,6 +51,18 @@ export const BodyS = styled.p`
 `;
 
 // Define sections
+export const Nav = styled.div`
+margin: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 29px 165px;
+
+@media screen and (max-width: 768px) {
+    padding: 16px;
+}
+`;
+
 export const Header = styled.header`
     margin: 0;
     padding: 29px 165px;
@@ -62,9 +74,9 @@ export const Header = styled.header`
 
 export const Main = styled.main`
     margin: 0;
-    padding: 165px;
+    padding: 0 165px 140px;
     display: grid;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
     grid-template-rows: 1fr 1fr;
     column-gap: 30px;
     row-gap: 80px;
@@ -133,9 +145,9 @@ export const Body = styled(BodyM)`
 export const HeroImg = styled.div`
     background-image: url('../images/image-hero-desktop.png');
     object-fit: contain;
-    position: absolute;
-    top: -146px;
-    right: -335px;
+    // position: absolute;
+    // top: -146px;
+    // right: -335px;
     @media screen and (max-width: 768px) {
         content: url('../images/image-hero-mobile.png');
     }
