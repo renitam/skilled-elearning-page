@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/skilled-elearning-landing-page/static/css/main.69f46e93.css",
-    "main.js": "/skilled-elearning-landing-page/static/js/main.4378e84e.js",
-    "static/js/453.5c224e58.chunk.js": "/skilled-elearning-landing-page/static/js/453.5c224e58.chunk.js",
-    "static/media/PlusJakartaSans-Medium.ttf": "/skilled-elearning-landing-page/static/media/PlusJakartaSans-Medium.f78ffc04acb877ce387e.ttf",
-    "static/media/PlusJakartaSans-ExtraBold.ttf": "/skilled-elearning-landing-page/static/media/PlusJakartaSans-ExtraBold.c3c2ec0cc06a27366227.ttf",
-    "static/media/PlusJakartaSans-Bold.ttf": "/skilled-elearning-landing-page/static/media/PlusJakartaSans-Bold.542d4930de15d99be736.ttf",
-    "static/media/logo-dark.svg": "/skilled-elearning-landing-page/static/media/logo-dark.bd6dbe3fb81a86888ece82aa3764d1a4.svg",
-    "static/media/logo-light.svg": "/skilled-elearning-landing-page/static/media/logo-light.9fb3a720f1b85b9ed9991de94726c34b.svg",
-    "static/media/icon-animation.svg": "/skilled-elearning-landing-page/static/media/icon-animation.222979d47fd2dbbc9a215695c907fd93.svg",
-    "static/media/icon-crypto.svg": "/skilled-elearning-landing-page/static/media/icon-crypto.8d407fcff65885d92537a9d941d476d4.svg",
-    "index.html": "/skilled-elearning-landing-page/index.html",
-    "static/media/icon-business.svg": "/skilled-elearning-landing-page/static/media/icon-business.e1585951503a38781a9919e3ade6a40e.svg",
-    "static/media/icon-photography.svg": "/skilled-elearning-landing-page/static/media/icon-photography.eeaad81e7533c8103b7235301dce7c03.svg",
-    "static/media/icon-design.svg": "/skilled-elearning-landing-page/static/media/icon-design.06f787d808ae5438fdfee22122ff6424.svg",
-    "main.69f46e93.css.map": "/skilled-elearning-landing-page/static/css/main.69f46e93.css.map",
-    "main.4378e84e.js.map": "/skilled-elearning-landing-page/static/js/main.4378e84e.js.map",
-    "453.5c224e58.chunk.js.map": "/skilled-elearning-landing-page/static/js/453.5c224e58.chunk.js.map"
+    "main.css": "/skilled-elearning-page/static/css/main.de3d3a33.css",
+    "main.js": "/skilled-elearning-page/static/js/main.ec54292a.js",
+    "static/js/453.5c224e58.chunk.js": "/skilled-elearning-page/static/js/453.5c224e58.chunk.js",
+    "static/media/PlusJakartaSans-Medium.ttf": "/skilled-elearning-page/static/media/PlusJakartaSans-Medium.f78ffc04acb877ce387e.ttf",
+    "static/media/PlusJakartaSans-ExtraBold.ttf": "/skilled-elearning-page/static/media/PlusJakartaSans-ExtraBold.c3c2ec0cc06a27366227.ttf",
+    "static/media/PlusJakartaSans-Bold.ttf": "/skilled-elearning-page/static/media/PlusJakartaSans-Bold.542d4930de15d99be736.ttf",
+    "static/media/logo-dark.svg": "/skilled-elearning-page/static/media/logo-dark.bd6dbe3fb81a86888ece82aa3764d1a4.svg",
+    "static/media/logo-light.svg": "/skilled-elearning-page/static/media/logo-light.9fb3a720f1b85b9ed9991de94726c34b.svg",
+    "static/media/icon-animation.svg": "/skilled-elearning-page/static/media/icon-animation.222979d47fd2dbbc9a215695c907fd93.svg",
+    "static/media/icon-crypto.svg": "/skilled-elearning-page/static/media/icon-crypto.8d407fcff65885d92537a9d941d476d4.svg",
+    "index.html": "/skilled-elearning-page/index.html",
+    "static/media/icon-business.svg": "/skilled-elearning-page/static/media/icon-business.e1585951503a38781a9919e3ade6a40e.svg",
+    "static/media/icon-photography.svg": "/skilled-elearning-page/static/media/icon-photography.eeaad81e7533c8103b7235301dce7c03.svg",
+    "static/media/icon-design.svg": "/skilled-elearning-page/static/media/icon-design.06f787d808ae5438fdfee22122ff6424.svg",
+    "main.de3d3a33.css.map": "/skilled-elearning-page/static/css/main.de3d3a33.css.map",
+    "main.ec54292a.js.map": "/skilled-elearning-page/static/js/main.ec54292a.js.map",
+    "453.5c224e58.chunk.js.map": "/skilled-elearning-page/static/js/453.5c224e58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69f46e93.css",
-    "static/js/main.4378e84e.js"
+    "static/css/main.de3d3a33.css",
+    "static/js/main.ec54292a.js"
   ]
 }
