@@ -74,7 +74,7 @@ export const Header = styled.header`
 
 export const Main = styled.main`
     margin: 0;
-    padding: 0 165px 140px;
+    padding: 200px 165px 140px;
     display: grid;
     grid-template-columns: repeat(3, minmax(350px, 1fr));
     grid-template-rows: 1fr 1fr;
