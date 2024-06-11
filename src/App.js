@@ -1,8 +1,10 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import './App.css';
 import { Button, Button2, Button3, Navbar, Logo, CardLeadText, Body, CalltoAction, CardLead, Card, CardLogo, CardText, CardHeading, Nav, Header, Main, Footer, IntroHeading, IntroText, HeroImg } from './styles/global';
 import skilledlight from './images/logo-dark.svg';
 import skilleddark from './images/logo-light.svg';
+import favicon from './images/favicon-32x32.png';
 import { carddata } from './constants/constants';
 
 const renderCards = () => {
@@ -19,6 +21,11 @@ const renderCards = () => {
 function App() {
   return (
     <>
+      <Helmet>
+        <title>Skilled E-Learning Landing Page</title>
+        <link rel="canonical" href="http://renitam.github.io/skilled-elearning-page" />
+        <link rel="icon" type="image/x-icon" href={favicon} />
+      </Helmet>
       <Nav>
         <Logo src={skilledlight} alt="skilled logo" />
         <Button>Get Started</Button>

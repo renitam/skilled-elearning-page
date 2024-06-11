@@ -82,6 +82,20 @@ export const Main = styled.main`
     row-gap: 80px;
     background: ${colors.gradient3};
     color: ${colors.navy};
+
+    @media screen and (max-width: 768px) {
+        padding: 186px 39px 86px;
+        grid-template-columns: repeat(2, minmax(340px, 1fr));
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    @media screen and (max-width: 375px) {
+        padding: 66px min(16px, 11%) 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
 `;
 
 export const Footer = styled.footer`
@@ -216,6 +230,13 @@ export const CardText = styled.div`
 
 export const CalltoAction = styled(BodyM)`
     color: ${colors.hotpink};
+    opacity: 1;
+    transition: opacity ease-in .1s;
+
+    &:hover {
+        opacity: 0.3;
+        cursor: pointer;
+    }
 `;
 
 export const Logo = styled.img`
